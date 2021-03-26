@@ -1,0 +1,15 @@
+body {
+    background-color: hotpink;
+}
+
+.btn{
+    margin-top: 5%;
+    width: 20%;
+    height: 10%;
+    background-color: rgb(116, 4, 4);
+    border: solid 2px black;
+}
+.inp{
+    width: 30%;
+    height: 30%;
+}
