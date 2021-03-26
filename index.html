@@ -8,11 +8,18 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <input class="inp" id="imie mySelect" value="" type="text" onchange="myFunction()" placeholder="Imię">
-    <input class="inp" id="nazwisko mySelect" value="" type="text" onchange="myFunction()" placeholder="Nazwisko">
-    <input class="inp" id="email mySelect" value="" type="text" onchange="myFunction()" placeholder="email">
-    <input class="inp" id="telefon mySelect" value="" type="text" onchange="myFunction()" placeholder="telefon">
-    <input class="inp" id="wiadomość mySelect" value="" type="text" onchange="myFunction()" placeholder="wiadomość do sprzedającego">
+    <select name="" id="pizza" onchange="pobieranie(value)">
+        <option value="1">Hawajska</option>
+        <option value="2">sery</option>
+        <option value="3">margaritta</option>
+    </select>
+
+
+    <input class="inp" id="imie" value="" type="text" onchange="myFunction1(value)" placeholder="Imię">
+    <input class="inp" id="nazwisko" value="" type="text" onchange="myFunction2(value)" placeholder="Nazwisko">
+    <input class="inp" id="email" value="" type="text" onchange="myFunction3(value)" placeholder="email">
+    <input class="inp" id="telefon" value="" type="text" onchange="myFunction4(value)" placeholder="telefon">
+    <input class="inp" id="wiadomosc" value="" type="text" onchange="myFunction5(value)" placeholder="wiadomość do sprzedającego">
     <button onclick ="pobieranie(value)" class="btn">pobieranie</button>
 
 
